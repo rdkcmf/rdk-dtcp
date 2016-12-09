@@ -1,0 +1,13 @@
+Package: dtcp-manager
+Version: 1.0-r0.0
+Description: dtcp-manager version 1.0-r0
+ Broadcom DTCP-IP manager
+Section: base
+Priority: optional
+Maintainer: CPE SI Yocto Team <CCP_CPESI-YOCTO@cable.comcast.com>
+License: CLOSED
+Architecture: mips32el
+OE: dtcp-manager
+Depends: libgcc1 (>= 4.8.2), libssl1.0.0 (>= 1.0.1j), libstdc++6 (>= 4.8.2), libcrypto1.0.0 (>= 1.0.1j), mfr-library (>= 13.2), libc6 (>= 2.19), broadcom-refsw (>= trinity-unified-13.2)
+Provides: virtual/dtcpmgr
+Source: git://gerrit.teamccp.com:29418/rdk/components/generic/dtcp/generic;protocol=ssh;branch=master;name=generic;destsuffix=generic git://gerrit.teamccp.com:29418/rdk/components/generic/dtcp/soc/broadcom/common;protocol=ssh;branch=master;name=broadcom;destsuffix=broadcom file://Makefile
