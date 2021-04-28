@@ -167,7 +167,7 @@ typedef unsigned char  BOOLEAN;
  *
  * An opaque handle to a DTCP-IP source/sink session.
  */
-typedef unsigned long long DTCP_SESSION_HANDLE;
+typedef unsigned long DTCP_SESSION_HANDLE;
 
 /**
  * @brief DTCP-IP device types.
